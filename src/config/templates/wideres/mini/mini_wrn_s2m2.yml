@@ -1,0 +1,5 @@
+dataset: mini
+arch: wrn_s2m2
+checkpoint: "s2m2/mini/wrn_s2m2.ckpt"
+cache_dir: "s2m2/mini/wrn_s2m2"
+use_cached: true

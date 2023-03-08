@@ -1,0 +1,7 @@
+dataset: cub
+arch: resnet18
+# Relative to config.MODELS_DIR
+checkpoint: "tim/cub/softmax/resnet18/model_best.pth.tar"
+# Relative to config.FEATURES_DIR
+cache_dir: "tim/cub/softmax/resnet18"
+use_cached: true

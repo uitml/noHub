@@ -1,0 +1,6 @@
+dataset: debug
+arch: debug
+checkpoint: "."
+use_cached: true
+cache_dir: "debug"
+n_episodes: 20

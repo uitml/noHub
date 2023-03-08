@@ -1,0 +1,15 @@
+dataset: tiered
+arch: wrn_s2m2
+checkpoint: "s2m2/tiered/wrn_s2m2.ckpt"
+cache_dir: "s2m2/tiered/wrn_s2m2"
+use_cached: true
+
+n_shots: 1
+
+norm: sup_vmf
+sup_vmf:
+  different_label_exaggeration: 5
+  kappa: 0.5
+  loss_weights: [0.25]
+  out_dims: 400
+  perplexity: 40

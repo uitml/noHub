@@ -1,0 +1,17 @@
+dataset: tiered
+arch: resnet18
+# Relative to config.MODELS_DIR
+checkpoint: "tim/tiered/softmax/resnet18/model_best.pth.tar"
+# Relative to config.FEATURES_DIR
+cache_dir: "tim/tiered/softmax/resnet18"
+use_cached: true
+
+n_shots: 5
+
+norm: sup_vmf
+sup_vmf:
+  different_label_exaggeration: 8
+  kappa: 0.5
+  loss_weights: [0.2]
+  out_dims: 400
+  perplexity: 45

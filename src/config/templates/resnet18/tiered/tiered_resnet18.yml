@@ -1,0 +1,7 @@
+dataset: tiered
+arch: resnet18
+# Relative to config.MODELS_DIR
+checkpoint: "tim/tiered/softmax/resnet18/model_best.pth.tar"
+# Relative to config.FEATURES_DIR
+cache_dir: "tim/tiered/softmax/resnet18"
+use_cached: true

@@ -1,0 +1,16 @@
+dataset: mini
+arch: wrn_s2m2
+checkpoint: "s2m2/mini/wrn_s2m2.ckpt"
+cache_dir: "s2m2/mini/wrn_s2m2"
+use_cached: true
+
+n_shots: 5
+
+norm: sup_vmf
+sup_vmf:
+  different_label_exaggeration: 8
+  exaggeration_mode: linear
+  kappa: 0.2
+  loss_weights: [0.15]
+  out_dims: 400
+  perplexity: 30

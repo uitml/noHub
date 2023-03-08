@@ -1,0 +1,11 @@
+name: hubs
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - ipywidgets
+  - ipykernel
+  - pytorch::faiss-cpu=1.6.5
+  - pip
