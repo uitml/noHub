@@ -1,15 +1,15 @@
-dataset: mini
+dataset: cub
 arch: resnet18
 # Relative to config.MODELS_DIR
-checkpoint: "tim/mini/softmax/resnet18/model_best.pth.tar"
+checkpoint: "tim/cub/softmax/resnet18/model_best.pth.tar"
 # Relative to config.FEATURES_DIR
-cache_dir: "tim/mini/softmax/resnet18"
+cache_dir: "tim/cub/softmax/resnet18"
 use_cached: true
 
 n_shots: 5
 
-norm: sup_vmf
-sup_vmf:
+embedding: nohubs
+nohubs:
   different_label_exaggeration: 8
   kappa: 0.5
   loss_weights: [0.2]

@@ -6,8 +6,8 @@ use_cached: true
 
 n_shots: 1
 
-norm: sup_vmf
-sup_vmf:
+embedding: nohubs
+nohubs:
   different_label_exaggeration: 5
   kappa: 0.5
   loss_weights: [0.25]
