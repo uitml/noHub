@@ -1,6 +1,6 @@
 # Hubs and Hyperspheres
 
-This repository contains the code for the paper _"Hubs and Hyperspheres: Reducing Hubness and Improving Transductive Few-shot Learning with Hyperspherical Embeddings"_, submitted to CVPR 2023.
+This repository contains the code for the paper _"Hubs and Hyperspheres: Reducing Hubness and Improving Transductive Few-shot Learning with Hyperspherical Embeddings"_, CVPR 2023.
 
 **Abstract:**
 _Distance-based classification is frequently used in transductive few-shot learning (FSL). 
