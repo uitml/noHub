@@ -130,7 +130,8 @@ dmypy.json
 
 *.DS_Store
 .idea/*
-models
+models/*
+!models/.gitkeep
 data/*
 !data/split
 features/*
