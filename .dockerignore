@@ -1,0 +1,10 @@
+*.DS_Store
+.git
+.idea
+
+.gitignore
+environment.yml
+data
+features
+models
+src
