@@ -2,8 +2,8 @@
 
 This repository contains the code for the paper _"Hubs and Hyperspheres: Reducing Hubness and Improving Transductive Few-shot Learning with Hyperspherical Embeddings"_, CVPR 2023.
 
-**Abstract:**
-_Distance-based classification is frequently used in transductive few-shot learning (FSL). 
+_**Abstract** - 
+Distance-based classification is frequently used in transductive few-shot learning (FSL). 
 However, due to the high-dimensionality of image representations, FSL classifiers are prone to suffer from the hubness problem, where a few points (hubs) occur frequently in multiple nearest neighbour lists of other points. 
 Hubness negatively impacts distance-based classification when hubs from one class appear often among the nearest neighbors of points from another class, degrading the classifier's performance. 
 To address the hubness problem in FSL, we first prove that hubness can be eliminated by distributing representations uniformly on the hypersphere. 
